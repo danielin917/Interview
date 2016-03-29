@@ -1,7 +1,7 @@
 #pragma once
-#include <cstdio>
+
 #include "MyLib.h"
-using namespace std;
+
 template<typename T>
 int partition(T* array, int start, int end)
 {	
