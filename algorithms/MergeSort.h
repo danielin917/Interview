@@ -1,17 +1,5 @@
 #pragma once
 
-/*
-template<typename T>
-class MyVector{
-	T* array;
-	int length;
-	int filled;
-	void merge();
-public:
-	Merge	
-}
-*/
-
 template<typename T>
 void merge(T* array, T* left, T* right, int l_length, int r_length)
 {

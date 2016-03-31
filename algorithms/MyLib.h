@@ -1,7 +1,8 @@
 #pragma once
 
 #include<iostream>
-
+#include<stdlib.h>
+#include<time.h>
 using namespace std;
 
 /*swap by object reference*/
@@ -22,4 +23,17 @@ void printArray(T* array, int length)
 	}
 	cout << endl;
 
+}
+
+template<typename T>
+void arrayRandomizer(T* array, int length)
+{
+	srand(time(NULL));
+	for(int i = 0; i < length; i++)
+	{
+		int swap = rand() % length;
+		referenceSwap(array[i], array[swap]);
+		swap = rand() % length;
+		referenceSwap(array[i], array[swap]);
+	}	
 }

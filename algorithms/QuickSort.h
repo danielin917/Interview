@@ -1,7 +1,9 @@
 #pragma once
 
 #include "MyLib.h"
-
+/*
+ *Note remember to use start and end don't use length for this problem too many off by one errors
+ */
 template<typename T>
 int partition(T* array, int start, int end)
 {	
