@@ -2,6 +2,7 @@
 #include "MyLib.h"
 /*
  *Note: Practice again. Remember what is acting off the base and what is index. Maybe make more vairables fore reference
+ *WHEN INSERTING FIXUP, WHEN REMOVING FIXDOWN
  */
 
 /*
