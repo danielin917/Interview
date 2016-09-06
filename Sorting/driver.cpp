@@ -15,6 +15,7 @@ int main(){
 */
 	vector<int> a = {1,3,4,5,6,8,9,0,0,0,0};
 	vector<int> b = {3,5,7,8};
+	merge_sorted(a,b);
 	for(int i = 0; i < a.size(); i++){
 		cout << a[i] << " ";
 	}
