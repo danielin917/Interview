@@ -1,5 +1,6 @@
 #include<iostream>
 #include "maze_search.h"
+#include "check_if_produces.h"
 #include<fstream>
 #include<sstream>
 #include<string>
