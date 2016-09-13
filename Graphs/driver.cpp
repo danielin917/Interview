@@ -4,9 +4,11 @@
 #include<fstream>
 #include<sstream>
 #include<string>
+#include<set>
 using namespace std;
 
 int main(){
+	/*
 	int height;
 	string eol;
 	vector<vector<bool>> bitmap;
@@ -29,4 +31,7 @@ int main(){
 	for(int j = 0; j < path.size(); j ++){
 		cout << path[j].first << ":" << path[j].second << endl;
 	}
+	*/
+	set<string> D = {"run","car","five","bar","tar","tan","pan","pen","jump","dump","tattoo","bed"};
+	cout << check_if_produces("bed", "pen", D) << endl;
 }
